@@ -1,0 +1,657 @@
+.blockCss:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+.blockCss:active {
+  color: white !important;
+  margin-top: 3px !important;
+}
+
+.btns-prev {
+  float: left;
+}
+
+.btns-next {
+  float: right;
+}
+
+.ModalField {
+  border: none;
+  outline: none;
+  position: relative !important;
+  padding-left: 40px !important;
+
+  /* padding: 0 5px !important; */
+}
+.ModalField:focus {
+  box-shadow: inset 0 0px 0 #ddd;
+  /* background: transparent; */
+}
+.ModalField::placeholder {
+  transform: translate(-3%, 10%);
+}
+.marginsModalsInner {
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
+}
+
+.borderBottom {
+  border-bottom: 1px solid rgb(202, 200, 200) !important;
+}
+.colorGrayss {
+  color: gray;
+}
+.color-purple {
+  color: #5920b8 !important;
+}
+.bg-grays-color-purple {
+  background-color: rgb(243, 242, 242);
+  color: #5920b8 !important;
+}
+.imgShoutout2 {
+  width: 85px;
+  height: 85px;
+  border-radius: 3px !important;
+  border: 1px solid #5920b8;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0), 0 2px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.circ {
+  transition: ease 1s all;
+}
+.circ:hover {
+  transform: scale(1.2);
+}
+@media only screen and (min-width: 200px) and (max-width: 764px) {
+  .circ {
+    right: 0 !important;
+    font-size: 12px !important;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 355px) {
+  .moveShoutoutUserActionToTop {
+    position: absolute !important;
+    right: 0;
+    top: 0%;
+  }
+}
+.bg-purple {
+  background-color: #5920b8 !important;
+}
+.BGofbrownColors {
+  background-color: rgb(175, 123, 55);
+}
+@media only screen and (min-width: 377px) and (max-width: 400px) {
+  .changeCssShoutoutMobile {
+    width: 200px !important;
+    height: 113px !important;
+    background-size: 200px 113px !important;
+  }
+  .videosShoutout {
+    width: 200px !important;
+    height: 170px !important;
+  }
+}
+@media only screen and (min-width: 340px) and (max-width: 377px) {
+  .changeCssShoutoutMobile {
+    width: 170px !important;
+    height: 97px !important;
+    background-size: 170px 97px !important;
+  }
+  .videosShoutout {
+    width: 170px !important;
+    height: 190px !important;
+  }
+}
+@media only screen and (min-width: 304px) and (max-width: 340px) {
+  .changeCssShoutoutMobile {
+    width: 140px !important;
+    height: 82px !important;
+    background-size: 140px 82px !important;
+  }
+  .videosShoutout {
+    width: 140px !important;
+    height: 190px !important;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 304px) {
+  .changeCssShoutoutMobile {
+    width: 110px !important;
+    height: 62px !important;
+    background-size: 110px 62px !important;
+  }
+  .videosShoutout {
+    width: 110px !important;
+    height: 190px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 4000px) {
+  .onlyforIndex {
+    margin-top: -40px !important;
+  }
+}
+.Eye,
+.DownloadIt {
+  transition: 1s ease all;
+}
+.Eye:hover,
+.DownloadIt:hover {
+  transform: scale(1.4) !important;
+}
+/* content Of Appointment  START */
+.color-purple {
+  color: #5920b8 !important;
+}
+@media only screen and (min-width: 100px) and (max-width: 992px) {
+  .speciaForm {
+    margin-top: 0px !important;
+  }
+}
+.bgPurple {
+  background-color: #5920b8 !important;
+  height: 45px !important;
+}
+.BGofbrownColors {
+  background-color: rgb(175, 123, 55);
+}
+.btnDetailsOfTableAppointment:active {
+  position: relative;
+  top: 2px !important;
+}
+.AciveAppointment {
+  border-radius: 20px !important;
+  color: #5920b8 !important;
+  background-color: white !important;
+
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0), 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); */
+
+  /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 2px 5px 0 rgba(0, 0, 0, 0.6) !important; */
+}
+.marginsModalsInner {
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
+}
+.modal-open .myModalOfBio {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfBio .modal-dialog {
+  flex-grow: 1;
+}
+.modal-open .myModalOfMain {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfMain .modal-dialog {
+  flex-grow: 1;
+}
+
+.modal-open .myModalOfAddss {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfAddss .modal-dialog {
+  flex-grow: 1;
+}
+.hola {
+  padding: 1rem 3.5rem 1rem 0.75rem;
+  background: white url("img/appointments@2x-1.png") right 1rem center no-repeat;
+  background-size: 30px 30px;
+  cursor: pointer;
+}
+/* input[type="date"]:focus {
+  outline: none;
+  border-color: #3acfff;
+  box-shadow: 0 0 0 0.25rem rgba(0, 120, 250, 0.1);
+} */
+
+::-webkit-datetime-edit {
+}
+::-webkit-datetime-edit-fields-wrapper {
+}
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field {
+  text-transform: uppercase !important;
+}
+::-webkit-datetime-edit-month-field:hover,
+::-webkit-datetime-edit-day-field:hover,
+::-webkit-datetime-edit-year-field:hover {
+  background: rgba(0, 120, 250, 0.1);
+}
+::-webkit-datetime-edit-text {
+  opacity: 1;
+}
+::-webkit-clear-button,
+::-webkit-inner-spin-button {
+  display: none;
+}
+
+.hola::-webkit-calendar-picker-indicator {
+  position: absolute;
+  width: 3.5rem;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0;
+  cursor: pointer;
+
+  color: rgba(0, 120, 250, 1);
+  background: rgb(228, 17, 17);
+}
+/* change color of input type DATE START */
+.inputsDate {
+  color: rgb(161, 159, 159) !important;
+}
+.inputsDate::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  margin-right: 2px;
+  opacity: 0.8;
+  filter: invert(0.5);
+}
+/* change color of input type DATE END */
+
+.NotActiveAppointments {
+  background-color: #f1f1f1;
+  border-radius: 20px !important;
+  color: gray;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0), 0 1px 3px 0 rgba(0, 0, 0, 0.3); */
+  font-weight: 400;
+}
+.bb-Line {
+  border-bottom: 1px solid #dddada;
+}
+
+.d-nones {
+  display: none !important;
+}
+.d-blocks {
+  display: block !important;
+}
+.ModalField {
+  border: none;
+  outline: none;
+}
+.ModalField:focus {
+  box-shadow: inset 0 0px 0 #ddd;
+  /* background: transparent; */
+}
+.ModalField::placeholder {
+  padding-left: 20px !important;
+}
+
+/* Change Content of Appoiuntment font size START  */
+
+@media only screen and (min-width: 938px) and (max-width: 1055px) {
+  .changeTextFontAppointment {
+    font-size: 12px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 938px) {
+  .changeTextFontAppointment {
+    font-size: 10px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 8px !important;
+  }
+}
+@media only screen and (min-width: 765px) and (max-width: 820px) {
+  .changeTextFontAppointment {
+    font-size: 7px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 5px !important;
+  }
+}
+@media only screen and (min-width: 674px) and (max-width: 765px) {
+  .changeTextFontAppointment {
+    font-size: 15px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (min-width: 595px) and (max-width: 674px) {
+  .changeTextFontAppointment {
+    font-size: 13px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 11px !important;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 595px) {
+  .changeTextFontAppointment {
+    font-size: 11px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 9px !important;
+  }
+}
+@media only screen and (min-width: 470px) and (max-width: 530px) {
+  .changeTextFontAppointment {
+    font-size: 14px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 470px) {
+  .changeTextFontAppointment {
+    font-size: 16px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 14px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 8px !important;
+    width: 60px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 378px) and (max-width: 400px) {
+  .changeTextFontAppointment {
+    font-size: 12px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 10px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .imgAppointment {
+    width: 30px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 7px !important;
+    width: 50px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 120px) and (max-width: 378px) {
+  .changeTextFontAppointment {
+    font-size: 7px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 7px !important;
+  }
+  .imgAppointment {
+    width: 30px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 7px !important;
+    width: 40px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 324px) {
+  .imgAppointmentHistory {
+    width: 15px !important;
+  }
+}
+
+/* Modal Button Changing of Appointment START */
+
+@media only screen and (min-width: 349px) and (max-width: 994px) {
+  .btnModalWidth {
+    width: 100px !important;
+  }
+}
+@media only screen and (min-width: 249px) and (max-width: 349px) {
+  .btnModalWidth {
+    width: 80px !important;
+    font-size: 14px !important;
+  }
+}
+.marginsModalsInner {
+  margin-bottom: 18px !important;
+  margin-top: 18px !important;
+}
+.color-purple {
+  color: #5920b8 !important;
+}
+.bg-purple {
+  background-color: #5920b8 !important;
+}
+.btnDetailsOfTableAppointment:active {
+  position: relative;
+  top: 2px !important;
+}
+.Added {
+  display: flex !important;
+  align-items: center !important;
+  position: absolute !important;
+}
+.AciveAppointment {
+  border-radius: 20px !important;
+  color: #5920b8 !important;
+  background-color: white !important;
+
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0), 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.6); */
+
+  /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 2px 5px 0 rgba(0, 0, 0, 0.6) !important; */
+}
+.marginsModalsInner {
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
+}
+.modal-open .myModalOfBio {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfBio .modal-dialog {
+  flex-grow: 1;
+}
+.modal-open .myModalOfMain {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfMain .modal-dialog {
+  flex-grow: 1;
+}
+
+.modal-open .myModalOfAddss {
+  display: flex !important;
+  align-items: center !important;
+}
+.myModalOfAddss .modal-dialog {
+  flex-grow: 1;
+}
+
+/* change color of input type DATE START */
+.inputsDate {
+  color: rgb(161, 159, 159) !important;
+}
+.inputsDate::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  margin-right: 2px;
+  opacity: 0.8;
+  filter: invert(0.5);
+}
+/* change color of input type DATE END */
+
+.NotActiveAppointments {
+  background-color: #f1f1f1;
+  border-radius: 20px !important;
+  color: gray;
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0), 0 1px 3px 0 rgba(0, 0, 0, 0.3); */
+  font-weight: 400;
+}
+.bb-Line {
+  border-bottom: 1px solid #dddada;
+}
+
+.d-nones {
+  display: none !important;
+}
+.d-blocks {
+  display: block !important;
+}
+.ModalField {
+  border: none;
+  outline: none;
+}
+.ModalField:focus {
+  box-shadow: inset 0 0px 0 #ddd;
+  /* background: transparent; */
+}
+.ModalField::placeholder {
+  padding-left: 20px !important;
+}
+
+/* Change Content of Appoiuntment font size START  */
+
+@media only screen and (min-width: 938px) and (max-width: 1055px) {
+  .changeTextFontAppointment {
+    font-size: 12px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 938px) {
+  .changeTextFontAppointment {
+    font-size: 10px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 8px !important;
+  }
+}
+@media only screen and (min-width: 765px) and (max-width: 820px) {
+  .changeTextFontAppointment {
+    font-size: 7px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 5px !important;
+  }
+}
+@media only screen and (min-width: 674px) and (max-width: 765px) {
+  .changeTextFontAppointment {
+    font-size: 15px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (min-width: 595px) and (max-width: 674px) {
+  .changeTextFontAppointment {
+    font-size: 13px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 11px !important;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 595px) {
+  .changeTextFontAppointment {
+    font-size: 11px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 9px !important;
+  }
+}
+@media only screen and (min-width: 470px) and (max-width: 530px) {
+  .changeTextFontAppointment {
+    font-size: 14px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 470px) {
+  .changeTextFontAppointment {
+    font-size: 16px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 14px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 8px !important;
+    width: 60px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 378px) and (max-width: 400px) {
+  .changeTextFontAppointment {
+    font-size: 12px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 10px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .imgAppointment {
+    width: 30px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 7px !important;
+    width: 50px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 120px) and (max-width: 378px) {
+  .changeTextFontAppointment {
+    font-size: 7px !important;
+  }
+  .changeTextFontAppointmentHistory {
+    font-size: 7px !important;
+  }
+  .imgAppointment {
+    width: 30px !important;
+  }
+  .imgAppointmentHistory {
+    width: 20px !important;
+  }
+  .btnDetailsOfTableAppointment {
+    font-size: 7px !important;
+    width: 40px !important;
+    height: 20px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 324px) {
+  .imgAppointmentHistory {
+    width: 15px !important;
+  }
+}
+
+/* Modal Button Changing of Appointment START */
+
+@media only screen and (min-width: 349px) and (max-width: 994px) {
+  .btnModalWidth {
+    width: 100px !important;
+  }
+}
+@media only screen and (min-width: 249px) and (max-width: 349px) {
+  .btnModalWidth {
+    width: 80px !important;
+    font-size: 14px !important;
+  }
+}
+.iconsImages4 {
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 0%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+  border: 1px solid rgb(241, 239, 239);
+}
+/* Modal Button Changing of Appointment END */
+
+/* content Of Appointment END */
+/* Modal Button Changing of Appointment END */
+
+/* content Of Appointment END */
