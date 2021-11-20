@@ -203,12 +203,12 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
   height: 100vh;
   filter: blur(3px);
 }
-.alert-custom {
+#alert-custom {
   background-color: #f6d444;
   width: 200px;
   line-height: 100px;
   height: 100px;
-  display: none;
+  /* display: none; */
   /* margin: 0 auto; */
   /* display: inline-block; */
   position: absolute;
