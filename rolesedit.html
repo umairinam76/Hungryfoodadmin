@@ -42,6 +42,12 @@
 <!--begin::Body-->
 
 <body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
+  
+    <div id="parent-div"> 
+        <div class="p-10" id="alert-custom" > This is a custom alert</div>
+         <div id="alert-custom"> This is a custom alert</div>
+    </div>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript>
          <iframe
@@ -107,9 +113,9 @@
         <!--end::Toolbar-->
     </div>
     <!--end::Header Mobile-->
-    <div class="d-flex flex-column flex-root">
+    <div class="d-flex flex-column flex-root" >
         <!--begin::Page-->
-        <div class="d-flex flex-row flex-column-fluid page">
+        <div class="d-flex flex-row flex-column-fluid page" style="height: 2000px;">
             <!--begin::Aside-->
             <div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
                 <!--begin::Brand-->
@@ -157,10 +163,14 @@
                         <!--end::Svg Icon-->
                      </span>
                   </button>
-                    <!--end::Toolbar-->
+                  <!--end::Toolbar-->
                 </div>
                 <!--end::Brand-->
-                <!--begin::Aside Menu-->
+                
+                
+                <div></div>
+                               <!--begin::Aside Menu-->
+
                 <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
                     <!--begin::Menu Container-->
                     <div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500">
@@ -265,6 +275,8 @@
                 </div>
                 <!--end::Header-->
                 <!--begin::Content-->
+
+  
                 <div class="content d-flex flex-column flex-column-fluid" id="kt_content" style="margin-top: -50px !important">
                     <!--begin::Entry-->
                     <div class="d-flex flex-column-fluid">
@@ -277,8 +289,9 @@
                                     <div class="wizard wizard-4" id="kt_wizard" data-wizard-state="step-first" data-wizard-clickable="true">
                                         <!--begin::Wizard Nav-->
                                         <!--end::Wizard Nav-->
-                                        <!--begin::Card-->
-                                        <div class="card card-custom card-shadowless rounded-top-0">
+                                       
+                                    <!--begin::Card-->
+                                     <div class="card card-custom card-shadowless rounded-top-0">
                                             <h2 class="Restaurant-title">Restaurents</h2>
                                             <!--begin::Body-->
                                             <div class="card-body p-0">
